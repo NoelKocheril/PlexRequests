@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #333;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -28,6 +32,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  position: relative;
 }
 
 /* A elements that don't have a class get default styles */
@@ -42,6 +47,10 @@ svg {
   max-width: 100%;
   display: block;
 }
+
+
+
+
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

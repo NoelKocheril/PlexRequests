@@ -1,0 +1,22 @@
+
+.site-Navbar > ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: var(--bg-color);
+  }
+  
+.site-Navbar > ul > li {
+    float: left;
+  }
+  
+.site-Navbar > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+  }
+  
+.site-Navbar > ul > li a:hover {
+    background-color: #111;
+}
